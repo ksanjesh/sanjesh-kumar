@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg, #12c2e9, #c471ed, #f64f59);
+    clip-path: polygon(0%0%, 100%0%, 100%100%, 0%80%);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+
+}
+.logo{
+    width: 50%;
+    height: 100%;
+
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+
+}
+.menu{
+    width: 50%;
+    height: 100px;
+
+}
+.menu ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+   background: #fff;
+   color: blue;
+}
+section{
+    display: flex;
+
+}
+
+.heading {
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+}
+.heading p{
+    font-size: 1.1rem;
+    padding: 30px 0;
+
+}
+.heading button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #12c2e9, #c471ed, #f64f59);
+    border-radius: 4px;
+    padding: 10px 205px;
+
+}
+.heading button:hover{
+    background: linear-gradient(50deg, #f64f59, #fff, #12c471ed);
+    color: blue;
+
+}
+.image{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+.image img{
+    width: 4o0px;
+    height: 500px;
+    margin-left: 190px;
+}
